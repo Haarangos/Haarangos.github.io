@@ -5,30 +5,35 @@ font-family: 'Acme', sans-serif;
 */
 
 #contenidos{
-	width:500px;
+	width:1000px;
 	height: auto;
 	margin: auto;
 	position: relative;
-	background:blue;
+	background:orange;
+}
 
+body{
+background-image: url(../img/logo.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 h1{
 	font-family: 'Russo One', sans-serif;
 	margin-left: 10px;
-	font-size: 60px;
-	text-transform: center;
+	font-size: 40px;
+	text-align: center;
 }
 
 h2{
 	font-family: 'Acme', sans-serif;
-	margin-left: 10px;
-	font-size: 30px;
-	text-transform: right;
+	margin-right: 10px;
+	font-size: 20px;
+	text-align: right;
 }
 
 header{
 	width: 1000px;
 	height: 120px;
-	background: yellow;
+	background: blue;
 }
