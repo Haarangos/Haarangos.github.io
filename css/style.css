@@ -37,3 +37,14 @@ header{
 	height: 120px;
 	background: blue;
 }
+
+nav{
+	width: 1000px;
+	height: 50px;
+	background: orange;
+}
+
+ul{
+	margin: auto;
+	padding-top: 4px;
+}
