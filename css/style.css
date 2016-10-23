@@ -33,11 +33,13 @@ header{
 
 nav{
 	width: 1000px;
-	height: 65px;
+	height: 55px;
 	background: white;
-	border-radius: 0px 0px 10px outside
+	margin: 1px;
+	border-radius: 7px;
+	border-radius: 0px 0px 10px outside;
 	color: orange;
-	margin-top: 3px;
+	margin-top: 1px;
 }
 
 ul{
@@ -52,7 +54,7 @@ li{
 	background: #003f5e;
 	margin: 3px;
 	border-radius: 7px;
-	box-shadow: inset 0px 0px 10px orange ;
+	box-shadow: inset 0px 0px 10px orange outset ;
 	margin-top: 7px;
 }
 
@@ -88,10 +90,10 @@ footer{
 .ancho_menu_home{width: 900px;}
 .ancho_menu_paginas{width:970;}
 
-.menu:link{padding: 7px;color: white; text-decoration: none;}
-.menu:visited{padding: 7px;color: white; text-decoration: none;}
-.menu:hover{padding: 7px;color: white; text-decoration: none; text-shadow: 0 0 20px orange;}
-.menu:active{padding: 7px;color: white; text-decoration: none;}
+.menu:link{color: white; text-decoration: none;}
+.menu:visited{color: white; text-decoration: none;}
+.menu:hover{color: white; text-decoration: none; text-shadow: 0 0 20px orange;}
+.menu:active{color: white; text-decoration: none;}
 
 h1:hover
 {
