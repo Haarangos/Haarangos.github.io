@@ -72,12 +72,13 @@ section{
 aside{
 	
 	background: #FF8000;
-	width: 280px;
-	height: 720px;
+	width: 292px;
+	height: 602px;
 	float: left;
 	margin-left: 7px;
 	margin-top: 7px;
-	border-radius: 0px 10px 0px 0px
+	border-radius: 0px 10px 0px 0px;
+	border-radius: 7px;
 }
 
 footer{
@@ -88,7 +89,7 @@ footer{
 	float: left;
 	margin-top:5px;
 	margin-left: 175px;
-	list-style-image: 
+
 }
 
 p{
@@ -99,6 +100,7 @@ p{
 	padding: 10px;	
 	box-shadow: 0 0 25px orange outset;
 	text-align: justify;
+	border-image: 20px;
 }
 
 figure {
